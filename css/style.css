@@ -966,6 +966,24 @@ a.slidebtn i {
   padding: 200px 0;
   border: 14px solid #fff; box-shadow: 0 0 18px rgb(0 0 0 / 12%);
 }
+.video5 {
+  background: url(../images/video5.jpg) no-repeat top;
+  background-size: cover;
+  padding: 200px 0;
+  border: 14px solid #fff; box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+}
+.video6 {
+  background: url(../images/video6.jpg) no-repeat top;
+  background-size: cover;
+  padding: 200px 0;
+  border: 14px solid #fff; box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+}
+.video7 {
+  background: url(../images/video7.png) no-repeat top;
+  background-size: cover;
+  padding: 200px 0;
+  border: 14px solid #fff; box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+}
 .video-wrap p {
   font-size: 30px;
   font-weight: bold;
@@ -4116,3 +4134,22 @@ textarea.form-control{height: 150px !important;}
 	 
 }
 .text-black a{color:#000; line-height:15px; font-weight: bold; text-align: center!important;}
+.video-wrapper{
+    overflow: hidden
+}
+
+.video-wrapper .video{
+    position: relative; /* could be absolute if needed */
+    left: 1px;
+	focus { outline:none; }
+}
+
+.figure {
+   max-width:64rem;
+   width:100%;
+   max-height:20.875rem;
+   height:100%;
+   margin:1.25rem auto;
+   padding:1.051%;
+   background-color:#b40303;
+}
